@@ -1,0 +1,16 @@
+# Write news in order you want to see -- latest first
+news-items:
+    - type: record
+      date: 2020-05-14 07:59:00-0400
+      content: "Talk on Neural Module Networks for Reasoning over Text at University of Utah's, Data Science Club"
+      url: "https://datascience.utah.edu/club/summer-seminar-series"
+
+    - type: record
+      date: 2020-04-04 07:59:00-0400
+      content: "Two papers accepted to ACL 2020! (1) on improving interpretability in neural module networks, and (2) overestimation of syntactic representations in LMs"
+      url: "https://nitishgupta.github.io/publications"
+
+    - type: record
+      date: 2020-03-16 07:59:00-0400
+      content: "Successfully passed my PhD Proposal Defense!"
+      url: 
