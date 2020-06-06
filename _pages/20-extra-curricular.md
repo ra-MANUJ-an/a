@@ -1,37 +1,76 @@
 ---
 layout: page
 permalink: /teaching/
-title: extra-curriculuar
-description:
+title: extra-curricular
+content:
 
 
 service:
+-  
+    content: Student Mentor for ACL 2020 Student Research Workshop
 -
-    description: Student Mentor for ACL 2020 Student Research Workshop
+    content: Program Committee Member for ACL (2018, 2019, 2020)
 -
-    description: Program Committee Member for ACL (2018, 2019, 2020)
+    content: Program Committee Member for NAACL (2018, 2019)
 -
-    description: Program Committee Member for NAACL (2018, 2019)
+    content: Program Committee Member for EMNLP (2018, 2019)
 -
-    description: Program Committee Member for EMNLP (2018, 2019)
+    content: Program Committee Member for AAAI (2017, 2018)
 -
-    description: Program Committee Member for AAAI (2017, 2018)
+    content: Program Committee Member for EACL 2017
 -
-    description: Program Committee Member for EACL 2017
+    content: Program Committee Member for MRQA Workshop (2018, 2019)
 -
-    description: Program Committee Member for MRQA Workshop (2018, 2019)
--
-    description: Program Committee Member for AKBC 2019
+    content: Program Committee Member for AKBC 2019
 
+teaching:
+    - type: record
+      date: Fall 2019
+      content: "Guest Lectures on Neural Networks in CIS 519 - Applied Machine Learning"
+      url: "https://www.seas.upenn.edu/~cis519/fall2019/"
+      lecture1: https://youtu.be/G4JROrvOrVM
+      lecture2: https://youtu.be/K8NZD_feD0M
+    - type: record
+      date: Spring 2019
+      content: "Teaching Assistant for CIS 700 - Common-sense Reasoning"
+      url: "https://www.seas.upenn.edu/~cis700dr/Spring19/"
+    - type: record
+      date: Spring 2018
+      content: "Teaching Assistant for CIS 530 - Computational Linguistics"
+      url: "http://computational-linguistics-class.org/"
 ---
 
-### Teaching
-- Guest Lectures for CIS 520 - Machine Learning
-- Teaching Assistant for CIS 700 - Reasoning in Artificial Intelligence
-- Teaching Assistant for CIS 530 - Computation Linguistics
-
-
-### Academic Service
-{% for item in page.service %}
-- {{ item.description }}
+<div class="section">
+<h2> Teaching </h2>
+<table>
+{% for item in page.teaching %}
+  <tr>
+    <td style="vertical-align: middle;">{{ item.date }}</td>
+    <td style="vertical-align: top;" class="announcement">
+        {% if item.url %}
+            <a class="news-title" href="{{ item.url }}" target="_blank">{{ item.content }}</a>
+        {% else %}
+            {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+        {% endif %}
+        <br>
+        {% if item.lecture1 %}
+            [<a class="news-title" href="{{ item.lecture1 }}" target="_blank">Lecture 1</a>]
+        {% endif %}
+        {% if item.lecture2 %}
+            [<a class="news-title" href="{{ item.lecture2 }}" target="_blank">Lecture 2</a>]
+        {% endif %}
+    </td>
+  </tr>
 {% endfor %}
+</table>
+</div>
+
+
+<div class="section">
+<h2> Academic Service </h2>
+<ul>
+{% for item in page.service %}
+<li> {{ item.content }} </li>
+{% endfor %}
+</ul>
+</div>

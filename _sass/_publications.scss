@@ -26,7 +26,11 @@
         position: relative;
 
         span { display: block; }
-        .title { font-weight: bolder; font-size: 18px;}
+        .title {
+            font-weight: bolder;
+            font-size: 20px;
+            margin-top: 20px;
+        }
         .author {
             a {
                 border-bottom: 1px dashed $theme-color;

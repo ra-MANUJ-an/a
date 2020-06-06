@@ -1,71 +1,32 @@
 ---
 ---
-@article{gupta2015collectively,
-  title={Collectively embedding multi-relational data for predicting user preferences},
-  author={Gupta, Nitish and Singh, Sameer},
-  journal={arXiv preprint arXiv:1504.06165},
-  year={2015}
-}
-
-@techreport{gupta2015collective,
-  title={Collective Factorization for Relational Data: An Evaluation on the Yelp Datasets},
-  author={Gupta, Nitish and Singh, Sameer},
-  year={2015},
-  institution={Technical report, Technical report, Yelp Dataset Challenge, Round 4}
-}
-
-@inproceedings{shyam2016revisiting,
-  title={Revisiting the Evaluation for Cross Document Event Coreference},
-  author={Shyam Upadhyay, Nitish Gupta, Christos Christodoulopoulos, Dan Roth},
-  booktitle={COLING},
-  year={2016}
-}
-
-@inproceedings{gupta2017entity,
-  title={Entity linking via joint encoding of types, descriptions, and context},
-  author={Gupta, Nitish and Singh, Sameer and Roth, Dan},
-  booktitle={Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing},
-  pages={2681--2690},
-  year={2017}
-}
-
-@article{upadhyay2018joint,
-  title={Joint multilingual supervision for cross-lingual entity linking},
-  author={Upadhyay, Shyam and Gupta, Nitish and Roth, Dan},
-  journal={arXiv preprint arXiv:1809.07657},
-  year={2018}
-}
-
-@article{gupta2018neural,
-  title={Neural compositional denotational semantics for question answering},
-  author={Gupta, Nitish and Lewis, Mike},
-  journal={EMNLP},
-  year={2018}
-}
-
-@article{gupta2019neural,
+@inproceedings{gupta2019neural,
   title={Neural Module Networks for Reasoning over Text},
   author={Gupta, Nitish and Lin, Kevin and Roth, Dan and Singh, Sameer and Gardner, Matt},
-  journal={International Conference for Learning Representations},
+  booktitle={International Conference for Learning Representations (ICLR)},
   year={2020},
   arxiv={1912.04971},
   pdf={https://arxiv.org/pdf/1912.04971.pdf},
   code={https://nitishgupta.github.io/nmn-drop},
-  abstract={}
+  abstract={Answering compositional questions that require multiple steps of reasoning against text is challenging, especially when they involve discrete, symbolic operations. Neural module networks (NMNs) learn to parse such questions as executable programs composed of learnable modules, performing well on synthetic visual QA domains. However, we find that it is challenging to learn these models for non-synthetic questions on open-domain text, where a model needs to deal with the diversity of natural language and perform a broader range of reasoning. We extend NMNs by: (a) introducing modules that reason over a paragraph of text, performing symbolic reasoning (such as arithmetic, sorting, counting) over numbers and dates in a probabilistic and differentiable manner; and (b) proposing an unsupervised auxiliary loss to help extract arguments associated with the events in text. Additionally, we show that a limited amount of heuristically-obtained question program and intermediate module output supervision provides sufficient inductive bias for accurate learning. Our proposed model significantly outperforms state-of-the-art models on a subset of the DROP dataset that poses a variety of reasoning challenges that are covered by our modules.}
 }
 
-@article{subramanian2020obtaining,
+@inproceedings{subramanian2020obtaining,
   title={Obtaining Faithful Interpretations from Compositional Neural Networks},
   author={Subramanian*, Sanjay and Bogin*, Ben and Gupta*, Nitish and Wolfson, Tomer and Singh, Sameer and Berant, Jonathan and Gardner, Matt},
-  journal={Association for Computational Linguistics},
-  year={2020}
+  booktitle={Proceedings of the Association for Computational Linguistics},
+  year={2020},
+  arxiv={2005.00724},
+  pdf={https://arxiv.org/pdf/2005.00724.pdf}
 }
 
-@article{kodner2020overestimation,
-  title={{Overestimation of Syntactic Representationin Neural Language Models}},
+@inproceedings{kodner2020overestimation,
+  title={Overestimation of Syntactic Representationin Neural Language Models},
   author={Kodner, Jordan and Gupta, Nitish},
-  journal={arXiv preprint arXiv:2004.05067},
-  year={2020}
+  booktitle={Proceedings of the Association for Computational Linguistics},
+  year={2020},
+  arxiv={2004.05067},
+  pdf={https://arxiv.org/pdf/2004.05067.pdf}
 }
 
 @article{gardner2020evaluating,
@@ -74,4 +35,52 @@
   journal={arXiv preprint arXiv:2004.02709},
   year={2020},
   arxiv={2004.02709}
+}
+
+@inproceedings{gupta2018neural,
+  title={Neural Compositional Denotational Semantics for Question Answering},
+  author={Gupta, Nitish and Lewis, Mike},
+  booktitle={Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing},
+  year={2018},
+  arxiv={1808.09942},
+  pdf={https://arxiv.org/pdf/1808.09942.pdf},
+}
+
+@inproceedings{upadhyay2018joint,
+  title={Joint multilingual supervision for cross-lingual entity linking},
+  author={Upadhyay, Shyam and Gupta, Nitish and Roth, Dan},
+  booktitle={Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing},
+  year={2018},
+  arxix={1809.07657},
+  pdf={https://arxiv.org/pdf/1809.07657.pdf},
+  code={https://github.com/shyamupa/xelms}
+}
+
+
+@inproceedings{gupta2017entity,
+  title={Entity linking via joint encoding of types, descriptions, and context},
+  author={Gupta, Nitish and Singh, Sameer and Roth, Dan},
+  booktitle={Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing},
+  pages={2681--2690},
+  year={2017},
+  code={https://nitishgupta.github.io/neural-el/},
+  html={https://www.aclweb.org/anthology/D17-1284/},
+  pdf={https://www.aclweb.org/anthology/D17-1284.pdf}
+}
+
+@inproceedings{shyam2016revisiting,
+  title={Revisiting the Evaluation for Cross Document Event Coreference},
+  author={Upadhyay, Shyam and Gupta, Nitish and Christodoulopoulos, Christos and Roth, Dan},
+  booktitle={COLING},
+  year={2016},
+  html={https://www.aclweb.org/anthology/C16-1183/}
+}
+
+
+@article{gupta2015collectively,
+  title={Collectively embedding multi-relational data for predicting user preferences},
+  author={Gupta, Nitish and Singh, Sameer},
+  journal={arXiv preprint arXiv:1504.06165},
+  year={2015},
+  metadata={Won the Yelp Dataset Challenge Round 4}
 }

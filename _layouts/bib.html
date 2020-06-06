@@ -86,6 +86,9 @@
     [<a href="{{ entry.code }}" target="_blank">Code</a>]
   {% endif %}
   </span>
+  {% if entry.metadata %}
+    {{ entry.metadata }}
+  {% endif %}
 
   <!-- Hidden abstract block -->
   {% if entry.abstract %}

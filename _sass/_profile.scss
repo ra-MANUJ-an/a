@@ -41,3 +41,34 @@
     margin-top: 50px;
     padding-top: 20px;
 }
+
+.section {
+    border-top: 1px solid $grey-color-light;
+    margin-top: 50px;
+    padding-top: 10px;
+
+    h2 {
+        font-weight: bolder;
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 2em;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+
+        .date { width: 19%; }
+        .announcement { width: 81%; }
+
+        tr { text-align: left; }
+        td {
+            padding: 6px 0;
+            vertical-align: top;
+            border: none;
+        }
+    }
+    ul {
+        font-size: 16px;
+    }
+
+}
