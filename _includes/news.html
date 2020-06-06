@@ -6,11 +6,7 @@
       <tr>
         <td style="vertical-align: middle;" class="date">{{ item.date | date: "%b %-d, %Y" }}</td>
         <td style="vertical-align: top;" class="announcement">
-            {% if item.url %}
-                <a class="news-title" href="{{ item.url }}" target="_blank">{{ item.content }}</a>
-            {% else %}
-                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-            {% endif %}
+            {{ item.content | remove: '<p>' | remove: '</p>' | markdownify }}
         </td>
       </tr>
     {% endfor %}

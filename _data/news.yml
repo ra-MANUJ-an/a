@@ -2,15 +2,16 @@
 news-items:
     - type: record
       date: 2020-05-14 07:59:00-0400
-      content: "Talk on Neural Module Networks for Reasoning over Text at University of Utah's, Data Science Club"
-      url: "https://datascience.utah.edu/club/summer-seminar-series"
+      content: "Talk on Neural Module Networks for Reasoning over Text at the <a href=\"https://datascience.utah.edu/club/summer-seminar-series\" target=\"_blank\">Data Science Club, University of Utah</a>."
 
     - type: record
       date: 2020-04-04 07:59:00-0400
-      content: "Two papers accepted to ACL 2020! (1) on improving interpretability in neural module networks, and (2) overestimation of syntactic representations in LMs"
-      url: "https://nitishgupta.github.io/publications"
+      content: "Two papers accepted to ACL 2020! On (1) <a href=\"https://arxiv.org/abs/2005.00724\" target=\"_blank\">Obtaining Faithful Interpretations from Compositional Neural Networks</a>, and (2) <a href=\"https://arxiv.org/abs/2004.05067\" target=\"_blank\">Overestimation of Syntactic Representationin Neural Language Models</a>"
 
     - type: record
       date: 2020-03-16 07:59:00-0400
-      content: "Successfully passed my PhD Proposal Defense!"
-      url: 
+      content: "Successfully defended my thesis proposal."
+
+    - type: record
+      date: 2020-03-04 07:59:00-0400
+      content: "Talk at the <a href=\"http://www.mascsll.org/\" target=\"_blank\">Mid-Atlantic Student Colloquium (MASC) 2020</a> in University of Maryland, College Park."
