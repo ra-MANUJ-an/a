@@ -25,11 +25,19 @@ service:
 
 teaching:
     - type: record
+      date: Spring 2020
+      content: "Guest Lecture on Neural Module Networks in CIS 700 - Reasoning for Natural Language Understanding"
+      url: "https://www.seas.upenn.edu/~cis700dr/Spring20/"
+    - type: record
       date: Fall 2019
       content: "Guest Lectures on Neural Networks in CIS 519 - Applied Machine Learning"
       url: "https://www.seas.upenn.edu/~cis519/fall2019/"
       lecture1: https://youtu.be/G4JROrvOrVM
       lecture2: https://youtu.be/K8NZD_feD0M
+    - type: record
+      date: Spring 2018
+      content: "Guest Lecture on Hidden Markov Models in CIS 530 - Computational Linguistics"
+      url: "http://computational-linguistics-class.org/"
     - type: record
       date: Spring 2019
       content: "Teaching Assistant for CIS 700 - Common-sense Reasoning"
