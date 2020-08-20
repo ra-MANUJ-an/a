@@ -7,13 +7,13 @@ content:
 
 service:
 -  
-    content: Student Mentor for ACL 2020 Student Research Workshop
+    content: Student Mentor for ACL 2020 Student Research Workshop (SRW)
 -
     content: Program Committee Member for ACL (2018, 2019, 2020)
 -
     content: Program Committee Member for NAACL (2018, 2019)
 -
-    content: Program Committee Member for EMNLP (2018, 2019)
+    content: Program Committee Member for EMNLP (2018, 2019, 2020)
 -
     content: Program Committee Member for AAAI (2017, 2018)
 -
@@ -21,7 +21,7 @@ service:
 -
     content: Program Committee Member for MRQA Workshop (2018, 2019)
 -
-    content: Program Committee Member for AKBC 2019
+    content: Program Committee Member for AKBC (2019, 2020)
 
 teaching:
     - type: record

@@ -19,7 +19,7 @@ news: true
 social: true
 ---
 
-I am PhD student in Computer Science at the University of Pennsylvania pursuing research in Natural Language Processing and Machine Learning. I am advised by [Prof. Dan Roth](https://www.cis.upenn.edu/~danroth/) and co-advised by [Prof. Sameer Singh](http://sameersingh.org/), UCI.
+I am a PhD student in Computer Science at the University of Pennsylvania pursuing research in Natural Language Processing and Machine Learning. I am advised by [Prof. Dan Roth](https://www.cis.upenn.edu/~danroth/) and co-advised by [Prof. Sameer Singh](http://sameersingh.org/), UCI.
 
 My research focuses on developing structured models for grounded language understanding, primarily in the context of making machines understand and answer questions against text. I am particularly interested in models that perform reasoning by understanding the compositional nature of language, and are able to provide a formal semantic parse and an explanation about their predictions.
 
