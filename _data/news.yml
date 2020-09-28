@@ -2,7 +2,7 @@
 news-items:
     - type: record
       date: 2020-09-24 07:59:00-0400
-      content: "Three papers from collaborations accepted to EMNLP 2020! On (1) Compositional Generalization in Semantic Parsing, (2) Contrast Sets for NLP model evaluation, and (3) On robustness of multiple-choice QA models."
+      content: "Three papers from collaborations accepted to Findings of EMNLP 2020! On (1) Compositional Generalization in Semantic Parsing, (2) Contrast Sets for NLP model evaluation, and (3) On robustness of multiple-choice QA models."
 
     - type: record
       date: 2020-05-14 07:59:00-0400
