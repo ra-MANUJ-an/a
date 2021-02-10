@@ -4,7 +4,7 @@
     {% assign news = site.data.news.news-items %}
     {% for item in news limit: site.news_limit %}
       <tr>
-        <td style="vertical-align: middle;" class="date">{{ item.date | date: "%b %-d, %Y" }}</td>
+        <td style="vertical-align: middle;" class="date">{{ item.date | date: "%b, %Y" }}</td>
         <td style="vertical-align: top;" class="announcement">
             {{ item.content | remove: '<p>' | remove: '</p>' | markdownify }}
         </td>

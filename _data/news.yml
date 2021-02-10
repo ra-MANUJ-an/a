@@ -1,23 +1,15 @@
 # Write news in order you want to see -- latest first
 news-items:
     - type: record
-      date: 2021-02-04 07:59:00-0400
-      content: "Talk at Google AI"
+      date: 2021-02-04
+      content: "Talk at Microsoft Applied Research Rising Stars Talk Series"
 
     - type: record
-      date: 2021-01-28 07:59:00-0400
-      content: "Talk at Dataminr, NYC"
+      date: 2021-01-18
+      content: "Talk at Google AI; Alexa AI, Amazon; Allen Institute for AI, Seattle; Dataminr, NYC"
 
     - type: record
-      date: 2021-01-25 07:59:00-0400
-      content: "Talk at Allen Institute for AI"
-
-    - type: record
-      date: 2021-01-18 07:59:00-0400
-      content: "Talk at Alexa AI, Amazon"
-
-    - type: record
-      date: 2020-09-24 07:59:00-0400
+      date: 2020-09-24
       content: "Three papers from collaborations accepted to Findings of EMNLP 2020! On (1) Compositional Generalization in Semantic Parsing, (2) Contrast Sets for NLP model evaluation, and (3) On robustness of multiple-choice QA models."
 
     - type: record
