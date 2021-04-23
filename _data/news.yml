@@ -1,6 +1,10 @@
 # Write news in order you want to see -- latest first
 news-items:
     - type: record
+      date: 2021-04-14
+      content: "I successfully defended my thesis!"
+
+    - type: record
       date: 2021-02-04
       content: "Talk at Microsoft Applied Research Rising Stars Talk Series"
 
