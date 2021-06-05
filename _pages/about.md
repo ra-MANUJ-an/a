@@ -2,15 +2,15 @@
 layout: about
 permalink: /
 title: <strong>Nitish</strong> Gupta
-description: <a href="">PhD. Student, University of Pennsylvania</a>. # Address. Contacts. Moto. Etc.
+description: <a href="">(starting mid-July) Research Scientist, Google AI</a>. # Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: profile-small.jpg
   address: >
-    <p>nitishg@seas.upenn.edu</p>
-    <p>456-C,3401 Walnut St.</p>
-    <p>Philadelphia, PA 19104</p>
+    <p>gnnitish@gmail.com</p>
+    <p>working from home</p>
+    <!-- <p>Philadelphia, PA 19104</p> -->
 
 
 # set news to false. instead of using news component, we've added news in page.html
@@ -19,10 +19,12 @@ news: true
 social: true
 ---
 
-I am a PhD student in Computer Science at the University of Pennsylvania pursuing research in Natural Language Processing and Machine Learning. I am advised by [Prof. Dan Roth](https://www.cis.upenn.edu/~danroth/).
+In mid-July '21, I'll be joining [Google AI](https://ai.google/) as a research scientist in the [Language team](https://research.google/teams/language/).
 
 My research focuses on developing machine learning models that can reason about natural languages, for example English.
 My work primarily focuses on structured models for grounded language understanding, primarily in the context of making machines understand and answer questions against text. I am particularly interested in models that perform complex compositional reasoning and are able to provide an explanation about their predictions.
+
+I completed my PhD in Computer Science at the University of Pennsylvania pursuing research in Natural Language Processing and Machine Learning. I was advised by [Prof. Dan Roth](https://www.cis.upenn.edu/~danroth/).
 
 I am fortunate enough to have gotten the opportunity to work with excellent researchers in the field. I work closely with [Prof. Sameer Singh](http://sameersingh.org/), UCI and [Matt Gardner](https://matt-gardner.github.io/), [Allen Institute for Artificial Intelligence](https://allenai.org/). In the past, I have worked as an intern with [Tom Kwiatkowski](https://research.google/people/105075/), [Google Research](https://research.google/) and [Mike Lewis](https://research.fb.com/people/lewis-mike/), [Facebook AI Research](https://research.fb.com/).
 

@@ -1,6 +1,10 @@
 # Write news in order you want to see -- latest first
 news-items:
     - type: record
+      date: 2021-05-06
+      content: "Paper on Enforcing Consistency in Weakly Supervised Semantic Parsing accepted to ACL 21! This was done during my internship at AI2 with Matt Gardner and Sameer Singh."
+
+    - type: record
       date: 2021-04-14
       content: "I successfully defended my thesis!"
 
