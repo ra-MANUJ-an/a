@@ -6,7 +6,7 @@ news-items:
 
     - type: record
       date: 2021-04-14
-      content: "I successfully defended my thesis!"
+      content: "I successfully defended my thesis! <a href=\"http://nitishgupta.github.io/assets/pdf/nitish-gupta-thesis.pdf\" target=\"_blank\">My thesis can be accessed online here</a>."
 
     - type: record
       date: 2021-02-04
